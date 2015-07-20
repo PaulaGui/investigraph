@@ -1,0 +1,34 @@
+entities:
+  crji.org:
+    type: organization
+    description: Centrul Român pentru Jurnalism de Investigație - CRJI
+    url: http://www.crji.org
+    contact: mailto:rcij@riseup.net
+    country: ROU
+ 
+  stefan.candea@crji.org:
+    type: person
+    description: Ștefan Cândea
+    url: http://www.icij.org/journalists/stefan-candea
+    contact: mailto:stefan.candea@crji.org
+    country: ROU
+ 
+  sorin.ozon@crji.org:
+    type: person
+    description: Sorin Ozon
+    url: https://www.linkedin.com/pub/sorin-ozon/42/182/167
+    contact: mailto:sorin.ozon@crji.org
+    country: ROU
+ 
+links:
+  - type: founder
+    from: stefan.candea@crji.org
+    to: crji.org
+    interval:
+      from: 2001-01-01
+ 
+  - type: founder
+    from: sorin.ozon@crji.org
+    to: crji.org
+    interval:
+      from: 2001-01-01
