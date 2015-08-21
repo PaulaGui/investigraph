@@ -152,6 +152,7 @@ Paul Radu:
     url: 
     contact: 
     country: ROU
+
  liviu.avram@crji.org:
     type: person
     description: Liviu Avram
@@ -222,35 +223,35 @@ Cross-Border Organized Crime Investigations:
     contact:  https://crji.org/contact.php 
     country: Eastern Europe
 
-Reporters without Borders 
+Reporters without Borders: 
     type: Country Mission 
     description: introducing a new approach on project based investigations  
     url:  http://en.rsf.org/predator-caught-between-old-habits-and-democratic-strides-romanian-press-at-a-crossroads,10092.html 
     contact:  www.rsf.org  
     country: ROU 
 
-Washington Post 
+Washington Post: 
     type: article 
     description: cross-border research into FARA.gov for lobby 
     url:  http://www.washingtonpost.com/wp-dyn/content/article/2005/08/15/AR2005081501183.html 
     contact:  contact@washingtonpost.com 
     country: US 
 
-FJSC
+FJSC:
     type: organization 
     description: Journalism School – University of Bucharest 
     url:  http://www.fjsc.unibuc.ro/cadre-didactice 
     contact:  contact@fjsc.ro 
     country: ROU
 
-Active Watch
+Active Watch:
     type: organization 
     description: media watchdog
     url:  http://activewatch.ro/ro/freeex/evenimente-si-activitati/ziua-mondiala-a-libertatii-presei-15-ani-de-freeex 
     contact:  contact@activewatch.ro 
     country: ROU
 
-Active Watch - Map
+Active Watch - Map:
     type: report 
     description: mapping political influence on local tv
     url:  http://geo-spatial.org/hartatv/  
@@ -341,14 +342,7 @@ Harvard University:
     contact:  none
     country: US
 
-MIT - Center for Future Civic Media 
-    type: organization
-    description: Media Lab
-    url: https://civic.mit.edu/ 
-    contact:  none
-    country: US
-
-MIT - Center for Future Civic Media 
+MIT - Center for Future Civic Media :
     type: organization
     description: Media Lab
     url: https://civic.mit.edu/ 
@@ -369,343 +363,343 @@ Wikileaks:
     contact:  none
     country: online
 
-Cable Gate 
+Cable Gate :
     type: leak 
     description: publication and database
     url: https://wikileaks.org/cablegate.html  
     contact:  none
     country: online
 
-Sponge
+Sponge:
     type: community 
     description: media laboratory 
     url: www.thesponge.eu 
     contact:  none
     country: ROU
 
-ApTI
+ApTI:
     type: organization 
     description: digital rights
     url:  http://apti.ro/apti-english 
     contact:  http://apti.ro/contact 
     country: ROU
 
-geo-spatial.org
+geo-spatial.org:
     type: organization 
     description: mapping community 
     url:  http://geo-spatial.org/ 
     contact:  contact@geo-spatial.org
     country: ROU
 
-ceata.org
+ceata.org:
     type: organization 
     description: free software foundation 
     url:  www.ceata.org 
     contact:  
     country: ROU
 
-rosedu.org 
+rosedu.org :
     type: organization 
     description: romania open source education 
     url:  www.rosedu.org 
     contact:  
     country: ROU
 
-theblacksea.eu 
+theblacksea.eu :
     type: publication latform  
     description: in-depth stories about the Black Sea region  
     url:  www.theblacksea.eu 
     contact:  
     country: ROU
 
-necir.org 
+necir.org :
     type: organization  
     description: nonprofit investigative reporting newsroom based at Boston University   
     url:  http://necir.org/ 
     contact:  
     country: US
 
-Mihai Vasile Photo Award 
+Mihai Vasile Photo Award :
     type: award  
     description: awards in photo journalism  
     url:  http://www.premiile-mihai-vasile.com/ 
     contact:  
     country: ROU
 
-CIA Secret Prison 
+CIA Secret Prison :
     type: investigative project  
     description: publications about the existence of a CIA secret prison in Romania 
     url:  https://crji.org/articole.php?id=4200 
     contact:  
     country: ROU
 
-Berliner Gazette 
+Berliner Gazette :
     type: publication platform  
     description: Berliner Gazette  
     url:  http://berlinergazette.de/  
     contact:  
     country: DE
 
-Otaku Festival 
+Otaku Festival :
     type: event  
     description: Otaku Festival Romania  
     url: http://otakufestival.com/2015/workshops/culture-of-leaks/
     contact:  
     country: JP
 
-Sunlight Foundation 
+Sunlight Foundation :
   type: organization   
     description: transparency and technology   
     url: http://sunlightfoundation.com/  
     contact:  
     country: US
 
-EIJC 
+EIJC :
  type: organization 
     description: European Institute for Journalism and Communication Research 
     url: www.eijc.eu 
     contact:  
     country: DE
 
-University of Westminster  
+University of Westminster  :
  type: organization  
     description: University of Westminster – CAMRI 
     url: http://www.westminster.ac.uk/camri 
     contact:  
     country: UK
 
-Toronto Star 
+Toronto Star :
 type: organization  
     description: newspaper 
     url: http://www.thestar.com/news/world/2015/01/05/stefan_candea_the_journalistic_road_less_travelled.html 
     contact:  
     country: Canada
 
-Die Zeit  
+Die Zeit  :
  type: organization  
     description: weekly newspaper  
     url: www.diezeit.de 
     contact:  
     country: DE
 
-AP 
+AP :
  type: organization   
     description: news agency 
     url: http://www.ap.org/ 
     contact:  
     country: US
 
-NDR
+NDR:
  type: organization   
     description: Norddeutscher Rundfunk  
     url: www.ndr.de 
     contact:  
     country: DE
 
-NY Times
+NY Times:
  type: organization   
     description: New York Times  
     url: www.nytimes.com 
     contact:  
     country: US
 
-Boston Globe
+Boston Globe:
  type: organization   
     description: Boston Globe newspaper
     url: www.bostonglobe.com 
     contact:  
     country: US
 
-Reuters
+Reuters:
  type: organization   
     description: Reuters news agency 
     url: www.reuters.com 
     contact:  
     country: US
 
-ABC
+ABC:
  type: organization   
     description: ABC television 
     url: http://abcnews.go.com/2020 
     contact:  
     country: US
 
-CBC 
+CBC :
  type: organization   
     description: CBC public television 
     url: http://www.cbc.ca/ 
     contact:  
     country: CA
 
-ITV
+ITV:
  type: organization   
     description: ITV television 
     url: http://www.itv.com/ 
     contact:  
     country: UK 
 
-ZDF 
+ZDF :
  type: organization   
     description: Second German Public Television
     url: www.zdf.de 
     contact:  
     country: DE 
 
-ARD
+ARD:
  type: organization   
     description: First German Public Television
     url: www.ard.de 
     contact:  
     country: DE 
 
-Canal+
+Canal+ :
  type: organization   
     description: Canal Plus 
     url: www.canalplus.fr 
     contact:  
     country: FR
  
-Vedomosti
+Vedomosti :
  type: organization   
     description: financial newspaper Vedomosti
     url: www.vedomosti.ru 
     contact:  
     country: RU 
 
-Novaya Gazeta
+Novaya Gazeta:
  type: organization   
     description: opposition newspaper Novaya Gazeta
     url: www.novayagazeta.ru 
     contact:  
     country: RU 
 
-Kyiv Post
+Kyiv Post:
  type: organization   
     description: weekly newspaper Kyiv Post
     url: http://www.kyivpost.com/ 
     contact:  
     country: UA  
 
-Deutsche Welle
+Deutsche Welle:
  type: organization   
     description: weekly newspaper Kyiv Post
     url: www.dw.com 
     contact:  
     country: DE	
 
-Sat 1
+Sat 1:
  type: organization   
     description: private television 
     url: http://www.sat1.de/ 
     contact:  
     country: DE  
 
-Sueddeutsche Zeitung 
+Sueddeutsche Zeitung :
  type: organization   
     description: newspaper
     url: http://www.sueddeutsche.de/ 
     contact:  
     country: DE
 
-Panos Pictures (UK)
+Panos Pictures (UK):
  type: organization   
     description: photo agency
     url: www.panos.co.uk/ 
     contact:  
     country: UK  
 
-Politiken 
+Politiken :
  type: organization   
     description: newspaper
     url: http://politiken.dk/ 
     contact:  
     country: DK  
 
-Le Soir
+Le Soir:
  type: organization   
     description: newspaper
     url: http://www.lesoir.be/ 
     contact:  
     country: BE 
 
-Nieman Reports
+Nieman Reports:
  type: organization   
     description: publication 
     url: http://niemanreports.org/ 
     contact:  
     country: US
 
-L’Espresso (IT) 
+L’Espresso:
  type: organization   
     description: weekly newspaper 
     url: http://espresso.repubblica.it/ 
     contact:  
     country: IT 
 
-Spiegel TV  
+Spiegel TV  :
  type: organization   
     description: television magazine 
     url:http://www.spiegel.tv/ 
     contact:  
     country: DE
 
-BIRN 
+BIRN :
  type: organization   
     description: non profit investigative organization
     url: http://www.balkaninsight.com/en/static-page/about-birn 
     contact:  
     country: SR
 
-Eu Observer
+Eu Observer:
  type: organization   
     description: publication platform 
     url: https://euobserver.com/ 
     contact:  
     country: BE  
 
-Radio Free Europe
+Radio Free Europe:
  type: organization   
     description: radio 
     url: http://www.rferl.org/ 
     contact:  
     country: US
 
-24chasa 
+24chasa :
  type: organization   
     description: newspaper
     url: http://www.24chasa.bg/ 
     contact:  
     country: BG 
 
-Center for Investigative Reporting 
+Center for Investigative Reporting :
  type: organization   
     description: non-profit investigative center
     url: http://cin-ijc.com/en/ 
     contact:  
     country: HR
 
-HETQ 
+HETQ :
  type: organization   
     description: non-profit investigative center
     url: http://hetq.am/eng/ 
     contact:  
     country: AM  
 
-Rustavi TV 
+Rustavi TV :
  type: organization   
     description: television station 
     url: http://rustavi2.com/en 
     contact:  
     country: GE  
 
-Ta Nea 
+Ta Nea :
  type: organization   
     description: media 
     url: http://www.tanea.gr/ 
     contact:  
     country: GR  
 
-Sunday Times 
+Sunday Times :
  type: organization   
     description:  newspaper 
     url: http://www.thesundaytimes.co.uk/sto/ 
