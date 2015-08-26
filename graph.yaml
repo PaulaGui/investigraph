@@ -1,19 +1,19 @@
- entities:
+entities:
   crji.org:
     type: organization
-    description: Centrul RomÃ¢n pentru Jurnalism de InvestigaÈ›ie - CRJI
+    description: Centrul Român pentru Jurnalism de Investigație - CRJI
     url: http://www.crji.org
-    contact: mailto:rcij@riseup.net 
+    contact: mailto:rcij@riseup.net
     country: ROU
 
   stefan.candea@crji.org:
     type: person
-    description: È˜tefan CÃ¢ndea
+    description: Ștefan Cândea
     url: http://www.icij.org/journalists/stefan-candea
     contact: mailto:stefan.candea@crji.org
     country: ROU
 
- Mihai Vasile:
+  Mihai Vasile:
     type: person
     description: Mihai Vasile
     url: http://www.icij.org/journalists/stefan-candea
@@ -23,8 +23,7 @@
   Petrut Calinescu:
     type: person
     description: Petrut Calinescu fotojournalist
-    url: http://www.petrut-calinescu.com/About/1 
-    contact: 
+    url: http://www.petrut-calinescu.com/About/1
     country: ROU
 
   sorin.ozon@crji.org:
@@ -34,677 +33,624 @@
     contact: mailto:sorin.ozon@crji.org
     country: ROU
 
-adrian.mogos@crji.org:
+  adrian.mogos@crji.org:
     type: person
     description: Adrian Mogos
-    url: http://www.icij.org/journalists/adrian-mogos 
-    contact: none
+    url: http://www.icij.org/journalists/adrian-mogos
     country: ROU
 
-Paul Radu:
+  Paul Radu:
     type: person
     description: Paul Radu
-    url: http://www.icij.org/journalists/paul-cristian-radu 
-    contact: none
+    url: http://www.icij.org/journalists/paul-cristian-radu
     country: ROU
 
- george.colgiu@crji.org:
+  george.colgiu@crji.org:
     type: person
     description: George Colgiu
-    url: 
-    contact: 
     country: ROU
 
- lina.vdovii@crji.org:
+  lina.vdovii@crji.org:
     type: person
     description: Lina Vdovii
-    url: 
-    contact: 
     country: ROU
 
- vlad.odobescu@crji.org:
+  vlad.odobescu@crji.org:
     type: person
     description: Vlad Odobescu
-    url: 
-    contact: 
     country: ROU
 
- radu.vioreanu@crji.org:
+  radu.vioreanu@crji.org:
     type: person
     description: Radu Vioreanu
-    url: 
-    contact: 
     country: ROU
 
- petru.zoltan@crji.org:
+  petru.zoltan@crji.org:
     type: person
     description: Petru Zoltan
-    url: 
-    contact: 
     country: ROU
 
- sorin.semeniuc@crji.org:
+  sorin.semeniuc@crji.org:
     type: person
     description: Sorin Semeniuc
-    url: 
-    contact: 
     country: ROU
 
- sorin.titei@crji.org:
+  sorin.titei@crji.org:
     type: person
     description: Sorin Titei
-    url: 
-    contact: 
     country: ROU
 
- marius.nemes@crji.org:
+  marius.nemes@crji.org:
     type: person
     description: Marius Nemes
-    url: 
-    contact: 
     country: ROU
 
- sinziana.ionescu@crji.org:
+  sinziana.ionescu@crji.org:
     type: person
-    description: Sinziana Ionescu 
-    url: 
-    contact: 
+    description: Sinziana Ionescu
     country: ROU
 
- robert.ghement@crji.org:
+  robert.ghement@crji.org:
     type: person
-    description: Robert Ghement 
-    url: 
-    contact: 
+    description: Robert Ghement
     country: ROU
 
- aling.golban@crji.org:
+  aling.golban@crji.org:
     type: person
     description: Alin Golban
-    url: 
-    contact: 
     country: ROU
 
- romulus.dubat@crji.org:
+  romulus.dubat@crji.org:
     type: person
     description: Romulus Dubat
-    url: 
-    contact: 
     country: ROU
 
- ananei.gagniuc@crji.org:
+  ananei.gagniuc@crji.org:
     type: person
-    description: Ananei Gagniuc 
-    url: 
-    contact: 
+    description: Ananei Gagniuc
     country: ROU
 
- bogdan.croitoru@crji.org:
+  bogdan.croitoru@crji.org:
     type: person
     description: Bogdan Croitoru
-    url: 
-    contact: 
     country: ROU
 
- vitalie.calugareanu@crji.org:
+  vitalie.calugareanu@crji.org:
     type: person
     description: Vitalie Calugareanu
-    url: 
-    contact: 
     country: ROU
 
- liviu.avram@crji.org:
+  liviu.avram@crji.org:
     type: person
     description: Liviu Avram
-    url: 
-    contact: 
     country: ROU
 
- stefan.voinea@crji.org:
+  stefan.voinea@crji.org:
     type: person
     description: Stefan Voinea
-    url: 
-    contact: 
     country: ROU
 
- catalin.prisariu@crji.org:
+  catalin.prisariu@crji.org:
     type: person
     description: Catalin Prisacariu
-    url: 
-    contact: 
     country: ROU
 
-bbc.co.uk:
+  bbc.co.uk:
     type: media
     description: BBC Newsnight
-    url: www.bbc.co.uk 
+    url: www.bbc.co.uk
     contact: simon.lockhart@bbc.co.uk
     country: UK
 
-C.O.M:
+  C.O.M:
     type: organization
     description: Conventia Organizatiilor de Media - COM
-    url: http://mma.ro/ro/freeex/resurse/conventia-organizatiilor-de-media-documente-de-autoreglementare/ 
-    contact: ioana@cij.ro 
+    url: http://mma.ro/ro/freeex/resurse/conventia-organizatiilor-de-media-documente-de-autoreglementare/
+    contact: ioana@cij.ro
     country: ROU
 
-Reporteri Incognito TV:
+  Reporteri Incognito TV:
     type: media
     description: first undercover TV show
-    url: none
-    contact:  none
     country: ROU
 
-Channel 4:
+  Channel 4:
     type: media
     description: first undercover TV show
-    url: none
-    contact:  none
     country: UK
 
-gijn.org :
+  gijn.org:
     type: organization
     description: Global Investigative Journalism Network - GIJN
-    url: www.gijn.org 
-    contact:  hellow@gijn.org 
+    url: www.gijn.org
+    contact: hellow@gijn.org
     country: global
 
-i-scoop.org:
+  i-scoop.org:
     type: organization
-    description: Scoop 
-    url: http://i-scoop.org/ 
-    contact:  henrik.kaufholz@pol.dk
+    description: Scoop
+    url: http://i-scoop.org/
+    contact: henrik.kaufholz@pol.dk
     country: Eastern Europe
 
-Cross-Border Organized Crime Investigations:
+  Cross-Border Organized Crime Investigations:
     type: media project
-    description: introducing a new approach on project based investigations  
-    url: https://crji.org/articole.php?id=4081 
-    contact:  https://crji.org/contact.php 
+    description: introducing a new approach on project based investigations
+    url: https://crji.org/articole.php?id=4081
+    contact: https://crji.org/contact.php
     country: Eastern Europe
 
-Reporters without Borders: 
-    type: Country Mission 
-    description: introducing a new approach on project based investigations  
-    url:  http://en.rsf.org/predator-caught-between-old-habits-and-democratic-strides-romanian-press-at-a-crossroads,10092.html 
-    contact:  www.rsf.org  
-    country: ROU 
-
-Washington Post: 
-    type: article 
-    description: cross-border research into FARA.gov for lobby 
-    url:  http://www.washingtonpost.com/wp-dyn/content/article/2005/08/15/AR2005081501183.html 
-    contact:  contact@washingtonpost.com 
-    country: US 
-
-FJSC:
-    type: organization 
-    description: Journalism School – University of Bucharest 
-    url:  http://www.fjsc.unibuc.ro/cadre-didactice 
-    contact:  contact@fjsc.ro 
+  Reporters without Borders:
+    type: Country Mission
+    description: introducing a new approach on project based investigations
+    url: http://en.rsf.org/predator-caught-between-old-habits-and-democratic-strides-romanian-press-at-a-crossroads,10092.html
+    contact: www.rsf.org
     country: ROU
 
-Active Watch:
-    type: organization 
+  Washington Post:
+    type: article
+    description: cross-border research into FARA.gov for lobby
+    url: http://www.washingtonpost.com/wp-dyn/content/article/2005/08/15/AR2005081501183.html
+    contact: contact@washingtonpost.com
+    country: US
+
+  FJSC:
+    type: organization
+    description: Journalism School – University of Bucharest
+    url: http://www.fjsc.unibuc.ro/cadre-didactice
+    contact: contact@fjsc.ro
+    country: ROU
+
+  Active Watch:
+    type: organization
     description: media watchdog
-    url:  http://activewatch.ro/ro/freeex/evenimente-si-activitati/ziua-mondiala-a-libertatii-presei-15-ani-de-freeex 
-    contact:  contact@activewatch.ro 
+    url: http://activewatch.ro/ro/freeex/evenimente-si-activitati/ziua-mondiala-a-libertatii-presei-15-ani-de-freeex
+    contact: contact@activewatch.ro
     country: ROU
 
-Active Watch - Map:
-    type: report 
+  Active Watch - Map:
+    type: report
     description: mapping political influence on local tv
-    url:  http://geo-spatial.org/hartatv/  
-    contact:  contact@activewatch.ro 
+    url: http://geo-spatial.org/hartatv/
+    contact: contact@activewatch.ro
     country: ROU
 
-Transdniester – a separatist republic investigation:
+  Transdniester – a separatist republic investigation:
     type: media project
-    description: introducing a new approach on project based investigations  
-    url: https://crji.org/articole.php?id=4094 
-    contact:  https://crji.org/contact.php 
+    description: introducing a new approach on project based investigations
+    url: https://crji.org/articole.php?id=4094
+    contact: https://crji.org/contact.php
     country: Eastern Europe
 
-ICIJ.org:
+  ICIJ.org:
     type: organization
-    description:  International Consortium of Investigative Journalists
-    url: www.icij.org 
-    contact:  contact@icij.org 
+    description: International Consortium of Investigative Journalists
+    url: www.icij.org
+    contact: contact@icij.org
     country: US
 
-ICIJ Tobacco Underground:
+  ICIJ Tobacco Underground:
     type: cross-border project
-    description:  investigation into tobacco and organized crime 
-    url: http://www.icij.org/project/tobacco-underground/about-project-tobacco-underground 
-    contact:  contact@icij.org 
+    description: investigation into tobacco and organized crime
+    url: http://www.icij.org/project/tobacco-underground/about-project-tobacco-underground
+    contact: contact@icij.org
     country: US
- 
-ICIJ OffshoreLeaks:
+
+  ICIJ OffshoreLeaks:
     type: cross-border project
-    description:  investigation into the offshore world
-    url: http://www.icij.org/offshore  
-    contact:  contact@icij.org 
+    description: investigation into the offshore world
+    url: http://www.icij.org/offshore
+    contact: contact@icij.org
     country: US
- 
-The Guardian:
+
+  The Guardian:
     type: organization
     description: newspaper
-    url: www.theguardian.com 
-    contact:  contact@theguardian.com 
-    country: UK 
-
-OCCRP:
-    type: organization
-    description: Organized Crime and Corruption Reporting Project
-    url: www.occrp.org 
-    contact:  https://www.occrp.org/en/contact
-    country: US 
-
-OCCRP People of Interest:
-    type: database
-    description: Usual Suspects for Investigative Journalists
-    url: https://www.reportingproject.net/peopleofinterest/ 
-    contact:  none
-    country: Eastern Europe 
-
-Global Shining Light Award :
-    type: award
-    description: Global Award for investigative journalism 
-    url: http://gijn.org/awards/ 
-    contact:  none
-    country: global
-
-European Press Prize:
-    type: award
-    description: european award, shortlisted for the Innovation Award 
-    url: http://www.europeanpressprize.com/winners/year-2014/the-innovation-award/ 
-    contact:  none
-    country: European
-
-Investigative Reporters and Editors:
-    type: organization
-    description: US award for investigative journalism
-    url: http://www.ire.org/search/?q=Candea 
-    contact:  none
-    country: US
-
-Stanford University :
-    type: organization
-    description: John S. Knight Journalism Fellowships at Stanford 
-    url: http://jsk.stanford.edu/fellows/class-of-2010/paul-radu/ 
-    contact:  none
-    country: US
-
-Harvard University:
-    type: organization
-    description: Nieman Foundation at Harvard 
-    url: http://nieman.harvard.edu/news/2010/05/nieman-foundation-announces-nieman-fellows-in-class-of-2011/ 
-    contact:  none
-    country: US
-
-MIT - Center for Future Civic Media :
-    type: organization
-    description: Media Lab
-    url: https://civic.mit.edu/ 
-    contact:  none
-    country: US
-
-CCTV – Uncut: Revolution Televised
-    type: leak
-    description: an database of leaked CCTV and a tool to search 
-    url: http://dickgregoryforpresident.com/
-    contact:  none
-    country: online
-
-Wikileaks:  
-    type: organization
-    description: not-for-profit media organisation
-    url: https://wikileaks.org/About.html 
-    contact:  none
-    country: online
-
-Cable Gate :
-    type: leak 
-    description: publication and database
-    url: https://wikileaks.org/cablegate.html  
-    contact:  none
-    country: online
-
-Sponge:
-    type: community 
-    description: media laboratory 
-    url: www.thesponge.eu 
-    contact:  none
-    country: ROU
-
-ApTI:
-    type: organization 
-    description: digital rights
-    url:  http://apti.ro/apti-english 
-    contact:  http://apti.ro/contact 
-    country: ROU
-
-geo-spatial.org:
-    type: organization 
-    description: mapping community 
-    url:  http://geo-spatial.org/ 
-    contact:  contact@geo-spatial.org
-    country: ROU
-
-ceata.org:
-    type: organization 
-    description: free software foundation 
-    url:  www.ceata.org 
-    contact:  
-    country: ROU
-
-rosedu.org :
-    type: organization 
-    description: romania open source education 
-    url:  www.rosedu.org 
-    contact:  
-    country: ROU
-
-theblacksea.eu :
-    type: publication latform  
-    description: in-depth stories about the Black Sea region  
-    url:  www.theblacksea.eu 
-    contact:  
-    country: ROU
-
-necir.org :
-    type: organization  
-    description: nonprofit investigative reporting newsroom based at Boston University   
-    url:  http://necir.org/ 
-    contact:  
-    country: US
-
-Mihai Vasile Photo Award :
-    type: award  
-    description: awards in photo journalism  
-    url:  http://www.premiile-mihai-vasile.com/ 
-    contact:  
-    country: ROU
-
-CIA Secret Prison :
-    type: investigative project  
-    description: publications about the existence of a CIA secret prison in Romania 
-    url:  https://crji.org/articole.php?id=4200 
-    contact:  
-    country: ROU
-
-Berliner Gazette :
-    type: publication platform  
-    description: Berliner Gazette  
-    url:  http://berlinergazette.de/  
-    contact:  
-    country: DE
-
-Otaku Festival :
-    type: event  
-    description: Otaku Festival Romania  
-    url: http://otakufestival.com/2015/workshops/culture-of-leaks/
-    contact:  
-    country: JP
-
-Sunlight Foundation :
-  type: organization   
-    description: transparency and technology   
-    url: http://sunlightfoundation.com/  
-    contact:  
-    country: US
-
-EIJC :
- type: organization 
-    description: European Institute for Journalism and Communication Research 
-    url: www.eijc.eu 
-    contact:  
-    country: DE
-
-University of Westminster  :
- type: organization  
-    description: University of Westminster – CAMRI 
-    url: http://www.westminster.ac.uk/camri 
-    contact:  
+    url: www.theguardian.com
+    contact: contact@theguardian.com
     country: UK
 
-Toronto Star :
-type: organization  
-    description: newspaper 
-    url: http://www.thestar.com/news/world/2015/01/05/stefan_candea_the_journalistic_road_less_travelled.html 
-    contact:  
+  OCCRP:
+    type: organization
+    description: Organized Crime and Corruption Reporting Project
+    url: www.occrp.org
+    contact: https://www.occrp.org/en/contact
+    country: US
+
+  OCCRP People of Interest:
+    type: database
+    description: Usual Suspects for Investigative Journalists
+    url: https://www.reportingproject.net/peopleofinterest/
+    country: Eastern Europe
+
+  Global Shining Light Award:
+    type: award
+    description: Global Award for investigative journalism
+    url: http://gijn.org/awards/
+    country: global
+
+  European Press Prize:
+    type: award
+    description: european award, shortlisted for the Innovation Award
+    url: http://www.europeanpressprize.com/winners/year-2014/the-innovation-award/
+    country: European
+
+  Investigative Reporters and Editors:
+    type: organization
+    description: US award for investigative journalism
+    url: http://www.ire.org/search/?q=Candea
+    country: US
+
+  Stanford University:
+    type: organization
+    description: John S. Knight Journalism Fellowships at Stanford
+    url: http://jsk.stanford.edu/fellows/class-of-2010/paul-radu/
+    country: US
+
+  Harvard University:
+    type: organization
+    description: Nieman Foundation at Harvard
+    url: http://nieman.harvard.edu/news/2010/05/nieman-foundation-announces-nieman-fellows-in-class-of-2011/
+    country: US
+
+  MIT - Center for Future Civic Media:
+    type: organization
+    description: Media Lab
+    url: https://civic.mit.edu/
+    country: US
+
+  CCTV – Uncut: Revolution Televised
+    type: leak
+    description: an database of leaked CCTV and a tool to search
+    url: http://dickgregoryforpresident.com/
+    country: online
+
+  Wikileaks:
+    type: organization
+    description: not-for-profit media organisation
+    url: https://wikileaks.org/About.html
+    country: online
+
+  Cable Gate:
+    type: leak
+    description: publication and database
+    url: https://wikileaks.org/cablegate.html
+    country: online
+
+  Sponge:
+    type: community
+    description: media laboratory
+    url: www.thesponge.eu
+    country: ROU
+
+  ApTI:
+    type: organization
+    description: digital rights
+    url: http://apti.ro/apti-english
+    contact: http://apti.ro/contact
+    country: ROU
+
+  geo-spatial.org:
+    type: organization
+    description: mapping community
+    url: http://geo-spatial.org/
+    contact: contact@geo-spatial.org
+    country: ROU
+
+  ceata.org:
+    type: organization
+    description: free software foundation
+    url: www.ceata.org
+    contact:
+    country: ROU
+
+  rosedu.org:
+    type: organization
+    description: romania open source education
+    url: www.rosedu.org
+    contact:
+    country: ROU
+
+  theblacksea.eu:
+    type: publication latform
+    description: in-depth stories about the Black Sea region
+    url: www.theblacksea.eu
+    contact:
+    country: ROU
+
+  necir.org:
+    type: organization
+    description: nonprofit investigative reporting newsroom based at Boston University
+    url: http://necir.org/
+    contact:
+    country: US
+
+  Mihai Vasile Photo Award:
+    type: award
+    description: awards in photo journalism
+    url: http://www.premiile-mihai-vasile.com/
+    contact:
+    country: ROU
+
+  CIA Secret Prison:
+    type: investigative project
+    description: publications about the existence of a CIA secret prison in Romania
+    url: https://crji.org/articole.php?id=4200
+    contact:
+    country: ROU
+
+  Berliner Gazette:
+    type: publication platform
+    description: Berliner Gazette
+    url: http://berlinergazette.de/
+    contact:
+    country: DE
+
+  Otaku Festival:
+    type: event
+    description: Otaku Festival Romania
+    url: http://otakufestival.com/2015/workshops/culture-of-leaks/
+    contact:
+    country: JP
+
+  Sunlight Foundation:
+    type: organization
+    description: transparency and technology
+    url: http://sunlightfoundation.com/
+    contact:
+    country: US
+
+  EIJC:
+    type: organization
+    description: European Institute for Journalism and Communication Research
+    url: www.eijc.eu
+    contact:
+    country: DE
+
+  University of Westminster:
+    type: organization
+    description: University of Westminster – CAMRI
+    url: http://www.westminster.ac.uk/camri
+    contact:
+    country: UK
+
+  Toronto Star:
+    type: organization
+    description: newspaper
+    url: http://www.thestar.com/news/world/2015/01/05/stefan_candea_the_journalistic_road_less_travelled.html
+    contact:
     country: Canada
 
-Die Zeit  :
- type: organization  
-    description: weekly newspaper  
-    url: www.diezeit.de 
-    contact:  
+  Die Zeit:
+    type: organization
+    description: weekly newspaper
+    url: www.diezeit.de
+    contact:
     country: DE
 
-AP :
- type: organization   
-    description: news agency 
-    url: http://www.ap.org/ 
-    contact:  
+  AP:
+    type: organization
+    description: news agency
+    url: http://www.ap.org/
+    contact:
     country: US
 
-NDR:
- type: organization   
-    description: Norddeutscher Rundfunk  
-    url: www.ndr.de 
-    contact:  
+  NDR:
+    type: organization
+    description: Norddeutscher Rundfunk
+    url: www.ndr.de
+    contact:
     country: DE
 
-NY Times:
- type: organization   
-    description: New York Times  
-    url: www.nytimes.com 
-    contact:  
+  NY Times:
+    type: organization
+    description: New York Times
+    url: www.nytimes.com
+    contact:
     country: US
 
-Boston Globe:
- type: organization   
+  Boston Globe:
+    type: organization
     description: Boston Globe newspaper
-    url: www.bostonglobe.com 
-    contact:  
+    url: www.bostonglobe.com
+    contact:
     country: US
 
-Reuters:
- type: organization   
-    description: Reuters news agency 
-    url: www.reuters.com 
-    contact:  
+  Reuters:
+    type: organization
+    description: Reuters news agency
+    url: www.reuters.com
+    contact:
     country: US
 
-ABC:
- type: organization   
-    description: ABC television 
-    url: http://abcnews.go.com/2020 
-    contact:  
+  ABC:
+    type: organization
+    description: ABC television
+    url: http://abcnews.go.com/2020
+    contact:
     country: US
 
-CBC :
- type: organization   
-    description: CBC public television 
-    url: http://www.cbc.ca/ 
-    contact:  
+  CBC:
+    type: organization
+    description: CBC public television
+    url: http://www.cbc.ca/
+    contact:
     country: CA
 
-ITV:
- type: organization   
-    description: ITV television 
-    url: http://www.itv.com/ 
-    contact:  
-    country: UK 
+  ITV:
+    type: organization
+    description: ITV television
+    url: http://www.itv.com/
+    contact:
+    country: UK
 
-ZDF :
- type: organization   
+  ZDF:
+    type: organization
     description: Second German Public Television
-    url: www.zdf.de 
-    contact:  
-    country: DE 
+    url: www.zdf.de
+    contact:
+    country: DE
 
-ARD:
- type: organization   
+  ARD:
+    type: organization
     description: First German Public Television
-    url: www.ard.de 
-    contact:  
-    country: DE 
+    url: www.ard.de
+    contact:
+    country: DE
 
-Canal+ :
- type: organization   
-    description: Canal Plus 
-    url: www.canalplus.fr 
-    contact:  
+  Canal+:
+    type: organization
+    description: Canal Plus
+    url: www.canalplus.fr
+    contact:
     country: FR
- 
-Vedomosti :
- type: organization   
+
+  Vedomosti:
+    type: organization
     description: financial newspaper Vedomosti
-    url: www.vedomosti.ru 
-    contact:  
-    country: RU 
+    url: www.vedomosti.ru
+    contact:
+    country: RU
 
-Novaya Gazeta:
- type: organization   
+  Novaya Gazeta:
+    type: organization
     description: opposition newspaper Novaya Gazeta
-    url: www.novayagazeta.ru 
-    contact:  
-    country: RU 
+    url: www.novayagazeta.ru
+    contact:
+    country: RU
 
-Kyiv Post:
- type: organization   
+  Kyiv Post:
+    type: organization
     description: weekly newspaper Kyiv Post
-    url: http://www.kyivpost.com/ 
-    contact:  
-    country: UA  
+    url: http://www.kyivpost.com/
+    contact:
+    country: UA
 
-Deutsche Welle:
- type: organization   
+  Deutsche Welle:
+    type: organization
     description: weekly newspaper Kyiv Post
-    url: www.dw.com 
-    contact:  
+    url: www.dw.com
+    contact:
     country: DE	
 
-Sat 1:
- type: organization   
-    description: private television 
-    url: http://www.sat1.de/ 
-    contact:  
-    country: DE  
-
-Sueddeutsche Zeitung :
- type: organization   
-    description: newspaper
-    url: http://www.sueddeutsche.de/ 
-    contact:  
+  Sat 1:
+    type: organization
+    description: private television
+    url: http://www.sat1.de/
+    contact:
     country: DE
 
-Panos Pictures (UK):
- type: organization   
+  Sueddeutsche Zeitung:
+    type: organization
+    description: newspaper
+    url: http://www.sueddeutsche.de/
+    contact:
+    country: DE
+
+  Panos Pictures (UK):
+    type: organization
     description: photo agency
-    url: www.panos.co.uk/ 
-    contact:  
-    country: UK  
+    url: www.panos.co.uk/
+    contact:
+    country: UK
 
-Politiken :
- type: organization   
+  Politiken:
+    type: organization
     description: newspaper
-    url: http://politiken.dk/ 
-    contact:  
-    country: DK  
+    url: http://politiken.dk/
+    contact:
+    country: DK
 
-Le Soir:
- type: organization   
+  Le Soir:
+    type: organization
     description: newspaper
-    url: http://www.lesoir.be/ 
-    contact:  
-    country: BE 
+    url: http://www.lesoir.be/
+    contact:
+    country: BE
 
-Nieman Reports:
- type: organization   
-    description: publication 
-    url: http://niemanreports.org/ 
-    contact:  
+  Nieman Reports:
+    type: organization
+    description: publication
+    url: http://niemanreports.org/
+    contact:
     country: US
 
-L’Espresso:
- type: organization   
-    description: weekly newspaper 
-    url: http://espresso.repubblica.it/ 
-    contact:  
-    country: IT 
+  L’Espresso:
+    type: organization
+    description: weekly newspaper
+    url: http://espresso.repubblica.it/
+    contact:
+    country: IT
 
-Spiegel TV  :
- type: organization   
-    description: television magazine 
-    url:http://www.spiegel.tv/ 
-    contact:  
+  Spiegel TV:
+    type: organization
+    description: television magazine
+    url:http://www.spiegel.tv/
+    contact:
     country: DE
 
-BIRN :
- type: organization   
+  BIRN:
+    type: organization
     description: non profit investigative organization
-    url: http://www.balkaninsight.com/en/static-page/about-birn 
-    contact:  
+    url: http://www.balkaninsight.com/en/static-page/about-birn
+    contact:
     country: SR
 
-Eu Observer:
- type: organization   
-    description: publication platform 
-    url: https://euobserver.com/ 
-    contact:  
-    country: BE  
+  Eu Observer:
+    type: organization
+    description: publication platform
+    url: https://euobserver.com/
+    contact:
+    country: BE
 
-Radio Free Europe:
- type: organization   
-    description: radio 
-    url: http://www.rferl.org/ 
-    contact:  
+  Radio Free Europe:
+    type: organization
+    description: radio
+    url: http://www.rferl.org/
+    contact:
     country: US
 
-24chasa :
- type: organization   
+  24chasa:
+    type: organization
     description: newspaper
-    url: http://www.24chasa.bg/ 
-    contact:  
-    country: BG 
+    url: http://www.24chasa.bg/
+    contact:
+    country: BG
 
-Center for Investigative Reporting :
- type: organization   
+  Center for Investigative Reporting:
+    type: organization
     description: non-profit investigative center
-    url: http://cin-ijc.com/en/ 
-    contact:  
+    url: http://cin-ijc.com/en/
+    contact:
     country: HR
 
-HETQ :
- type: organization   
+  HETQ:
+    type: organization
     description: non-profit investigative center
-    url: http://hetq.am/eng/ 
-    contact:  
-    country: AM  
+    url: http://hetq.am/eng/
+    contact:
+    country: AM
 
-Rustavi TV :
- type: organization   
-    description: television station 
-    url: http://rustavi2.com/en 
-    contact:  
-    country: GE  
+  Rustavi TV:
+    type: organization
+    description: television station
+    url: http://rustavi2.com/en
+    contact:
+    country: GE
 
-Ta Nea :
- type: organization   
-    description: media 
-    url: http://www.tanea.gr/ 
-    contact:  
-    country: GR  
+  Ta Nea:
+    type: organization
+    description: media
+    url: http://www.tanea.gr/
+    contact:
+    country: GR
 
-Sunday Times :
- type: organization   
-    description:  newspaper 
-    url: http://www.thesundaytimes.co.uk/sto/ 
-    contact:  
-    country: UK  
+  Sunday Times:
+    type: organization
+    description: newspaper
+    url: http://www.thesundaytimes.co.uk/sto/
+    contact:
+    country: UK
 
 links:
   - type: co-founder
@@ -719,660 +665,659 @@ links:
     interval:
       from: 2001-01-01
 
-- type: co-founder
+  - type: co-founder
     from: Mihai Vasile
     to: crji.org
     interval:
       from: 2001-01-01
       to: 2014-11-01
 
-- type: member
+  - type: member
     from: adrian.mogos@crji.org
     to: crji.org
     interval:
       from: 2004-01-01
 
-- type: member
+  - type: member
     from: Petrut Calinescu
     to: crji.org
     interval:
       from: 2002-01-01
 
-- type: member
+  - type: member
     from: Paul Radu
     to: crji.org
     interval:
       from: 2002-01-01
-      to: 2011-11-01 
-  
-- type: investigation into International Adoptions
+      to: 2011-11-01
+
+  - type: investigation into International Adoptions
     from: stefan.candea@crji.org
     to: bbc.co.uk
     interval:
       from: 2000-01-01
       to: 2000-10-01
 
-- type: founder
-    from: crji.org 
+  - type: founder
+    from: crji.org
     to: C.O.M.
     interval:
       from: 2001-01-01
 
-- type: founder
-    from: crji.org 
+  - type: founder
+    from: crji.org
     to: Reporteri Incognito TV
     interval:
       from: 2002-11-01
       to: 2003-02-01
 
-- type: exposing internationally the sex trade in Romania and the region
-    from: crji.org 
+  - type: exposing internationally the sex trade in Romania and the region
+    from: crji.org
     to: Channel 4
     interval:
       from: 2003-12-01
 
-- type: co-founder
+  - type: co-founder
     from: crji.org
     to: gijn.org
     interval:
       from: 2003-05-01
 
-- type: co-founder
+  - type: co-founder
     from: crji.org
     to: i-scoop.org
     interval:
       from: 2003-01-01
 
-- type: publication
-    from: crji.org 
+  - type: publication
+    from: crji.org
     to: Cross-Border Organized Crime Investigations
     interval:
       from: 2003-05-01
 
-- type: country mission
-    from: crji.org 
+  - type: country mission
+    from: crji.org
     to: Reporters without Borders
     interval:
       from: 2004-05-01
 
-- type: noted with interest
-    from: stefan.candea@crji.org  
+  - type: noted with interest
+    from: stefan.candea@crji.org
     to: Washington Post
     interval:
       from: 2005-08-15
       to: 2005-08-15
 
-- type: teaching
-    from: crji.org 
+  - type: teaching
+    from: crji.org
     to: FJSC
     interval:
       from: 2005-09-15
-   
-- type: events
-    from: crji.org 
+
+  - type: events
+    from: crji.org
     to: Active Watch
     interval:
       from: 2005-05-03
 
-- type: reports
-    from: crji.org 
+  - type: reports
+    from: crji.org
     to: Active Watch
     interval:
-     from: 2002-05-03
+      from: 2002-05-03
 
-- type: map 
-     from: crji.org 
-     to: Active Watch - Map
-     interval:
-     from: 2014-01-21
+  - type: map
+    from: crji.org
+    to: Active Watch - Map
+    interval:
+      from: 2014-01-21
 
-- type: map 
-     from: Active Watch 
-     to: Active Watch - Map
-     interval:
-     from: 2014-01-21
+  - type: map
+    from: Active Watch
+    to: Active Watch - Map
+    interval:
+      from: 2014-01-21
 
-- type: map 
-     from: geo-spatial.org  
-     to: Active Watch - Map
-     interval:
-     from: 2014-01-21
+  - type: map
+    from: geo-spatial.org
+    to: Active Watch - Map
+    interval:
+      from: 2014-01-21
 
-- type: investigative series 
-     from: crji.org 
-     to: Transdniester – a separatist republic investigation
-     interval:
-     from: 2005-05-20
-    to: 2006-07-11
+  - type: investigative series
+    from: crji.org
+    to: Transdniester – a separatist republic investigation
+    interval:
+      from: 2005-05-20
+      to: 2006-07-11
 
-- type: member
+  - type: member
     from: adrian.mogos@crji.org
-    to: icij.org 
+    to: icij.org
     interval:
       from: 2011-11-01
 
-- type: member
+  - type: member
     from: stefan.candea@crji.org
-    to: icij.org 
+    to: icij.org
     interval:
       from: 2006-10-01
 
-- type: member
+  - type: member
     from: Paul Radu
     to: icij.org
     interval:
       from: 2003-10-01
 
-- type: cross-border project
+  - type: cross-border project
     from: crji.org
-    to: ICIJ Tobacco Underground 
+    to: ICIJ Tobacco Underground
     interval:
       from: 2008-02-01
       to: 2008-10-20
 
-- type: cross-border project
+  - type: cross-border project
     from: crji.org
-    to: ICIJ OffshoreLeaks  
+    to: ICIJ OffshoreLeaks
     interval:
       from: 2008-02-01
       to: 2008-10-20
 
-- type: http://www.theguardian.com/business/2008/oct/20/tobaccoindustry-russia-europe-smuggling-cigarettes 
+  - type: http://www.theguardian.com/business/2008/oct/20/tobaccoindustry-russia-europe-smuggling-cigarettes
     from: crji.org
-    to: The Guardian  
+    to: The Guardian
     interval:
       from: 2008-10-19
-      
-- type: co-founder
+
+  - type: co-founder
     from: crji.org
-    to: OCCRP 
+    to: OCCRP
     interval:
       from: 2006-12-01
-      to: 2011-11-01 
+      to: 2011-11-01
 
-- type: coordinator 
+  - type: coordinator
     from: crji.org
     to: OCCRP People of Interest
     interval:
       from: 2010-01-01
-      
-- type: award 
-    from: Global Shining Light Award 
-    to: crji.org 
+
+  - type: award
+    from: Global Shining Light Award
+    to: crji.org
     interval:
       from: 2010-04-22
 
-- type: award 
-    from: Global Shining Light Award 
-    to: crji.org 
+  - type: award
+    from: Global Shining Light Award
+    to: crji.org
     interval:
       from: 2007
 
-- type: award 
-    from: European Press Prize 
-    to: crji.org 
+  - type: award
+    from: European Press Prize
+    to: crji.org
     interval:
       from: 2014
 
-- type: award 
+  - type: award
     from: Investigative Reporters and Editors
-    to: crji.org 
+    to: crji.org
     interval:
       from: 2014
 
-- type: award 
+  - type: award
     from: Investigative Reporters and Editors
-    to: crji.org 
+    to: crji.org
     interval:
       from: 2009
 
-- type: award 
+  - type: award
     from: Investigative Reporters and Editors
-    to: crji.org 
+    to: crji.org
     interval:
-      from: 2008 
+      from: 2008
 
-- type: fellow 
-    from: Stanford 
+  - type: fellow
+    from: Stanford
     to: Paul Radu
     interval:
       from: 2009
       to: 2010
 
- - type: fellow 
-    from: Harvard 
+  - type: fellow
+    from: Harvard
     to: stefan.candea@crji.org
     interval:
       from: 2010
       to: 2011
 
- - type: author 
-    from: crji.org 
-    to: CCTV – Uncut: Revolution Televised 
+  - type: author
+    from: crji.org
+    to: CCTV – Uncut: Revolution Televised
     interval:
       from: 2010
-  
- - type: author 
+
+  - type: author
     from: MIT - Center for Future Civic Media
-    to: CCTV – Uncut: Revolution Televised 
+    to: CCTV – Uncut: Revolution Televised
     interval:
       from: 2010
- 
- - type: author 
+
+  - type: author
     from: crji.org
     to: Cable Gate
     interval:
       from: 2010
 
-- type: author 
-    from: Wikileaks 
+  - type: author
+    from: Wikileaks
     to: Cable Gate
     interval:
       from: 2010
 
-- type: initiator 
-    from: crji.org 
+  - type: initiator
+    from: crji.org
     to: Sponge
     interval:
       from: 2012
 
-- type: member 
-    from: Active Watch 
+  - type: member
+    from: Active Watch
     to: Sponge
     interval:
       from: 2012
 
-- type: member 
-    from: ApTI 
+  - type: member
+    from: ApTI
     to: Sponge
     interval:
       from: 2012
 
-- type: member 
-    from: geo-spatial.org 
+  - type: member
+    from: geo-spatial.org
     to: Sponge
     interval:
       from: 2012
 
-- type: member 
+  - type: member
     from: Ceata.org
     to: Sponge
     interval:
       from: 2012
 
-- type: member 
+  - type: member
     from: rosedu.org
     to: Sponge
     interval:
       from: 2012
 
-- type: co-founder 
+  - type: co-founder
     from: crji.org
-    to: theblacksea.eu  
+    to: theblacksea.eu
     interval:
       from: 2012
 
-- type: co-founder 
+  - type: co-founder
     from: Sponge
-    to: theblacksea.eu  
+    to: theblacksea.eu
     interval:
       from: 2012
 
-- type: co-founder 
-    from: Petrut Calinescu 
-    to: theblacksea.eu  
+  - type: co-founder
+    from: Petrut Calinescu
+    to: theblacksea.eu
     interval:
       from: 2012
 
-- type: project 
+  - type: project
     from: crji.org
-    to: necir.org 
+    to: necir.org
     interval:
       from: 2012
 
-- type: founder 
+  - type: founder
     from: crji.org
-    to: Mihai Vasile Photo Award 
+    to: Mihai Vasile Photo Award
     interval:
       from: 2015
 
-- type: author 
+  - type: author
     from: crji.org
-    to: CIA Secret Prison 
+    to: CIA Secret Prison
     interval:
       from: 2012
 
-- type: author 
+  - type: author
     from: NDR
-    to: CIA Secret Prison 
+    to: CIA Secret Prison
     interval:
       from: 2012
 
-- type: author 
-    from: AP 
-    to: CIA Secret Prison 
+  - type: author
+    from: AP
+    to: CIA Secret Prison
     interval:
       from: 2012
 
-- type: collaborator 
+  - type: collaborator
     from: Berliner Gazette
     to: Otaku Festival
     interval:
       from: 2015
 
-- type: collaborator 
+  - type: collaborator
     from: Sponge
     to: Otaku Festival
     interval:
       from: 2015
 
-- type: PhD research 
-    from: stefan.candea@crji.org 
+  - type: PhD research
+    from: stefan.candea@crji.org
     to: University of Westminster
     interval:
       from: 2014
 
-- type: PhD research 
-    from: stefan.candea@crji.org 
+  - type: PhD research
+    from: stefan.candea@crji.org
     to: EIJC
     interval:
       from: 2014
 
-- type: investigations
-    from: crji.org 
+  - type: investigations
+    from: crji.org
     to: Die Zeit
     interval:
       from: 2014
 
-- type: investigations
-    from: crji.org 
+  - type: investigations
+    from: crji.org
     to: Toronto Star
     interval:
       from: 2014
 
-- type: investigations
-    from: crji.org 
+  - type: investigations
+    from: crji.org
     to: NY Times
     interval:
       from: 2001
-- type: research
-    from: crji.org 
-    to: Boston Globe 
+  - type: research
+    from: crji.org
+    to: Boston Globe
     interval:
       from: 2010
 
-- type: investigations
-    from: crji.org 
+  - type: investigations
+    from: crji.org
     to: Reuters
     interval:
       from: 2009
 
-- type: investigations
-    from: crji.org 
+  - type: investigations
+    from: crji.org
     to: ABC
     interval:
       from: 2001
 
-- type: investigations
-    from: crji.org 
+  - type: investigations
+    from: crji.org
     to: CBC
     interval:
       from: 2010
 
-- type: investigations
-    from: crji.org 
+  - type: investigations
+    from: crji.org
     to: ITV
     interval:
       from: 2001
 
-- type: investigations
-    from: crji.org 
+  - type: investigations
+    from: crji.org
     to: ZDF
     interval:
       from: 2001
 
-- type: investigations
-    from: crji.org 
+  - type: investigations
+    from: crji.org
     to: ARD
     interval:
       from: 2001
 
-- type: investigations
-    from: crji.org 
+  - type: investigations
+    from: crji.org
     to: Canal+
     interval:
       from: 2003
 
-- type: investigations
-    from: crji.org 
+  - type: investigations
+    from: crji.org
     to: Vedomosti
     interval:
       from: 2010
 
-- type: investigations
-    from: crji.org 
+  - type: investigations
+    from: crji.org
     to: Novaya Gazeta
     interval:
       from: 2003
 
-- type: investigations
-    from: crji.org 
+  - type: investigations
+    from: crji.org
     to: Kyiv Post
     interval:
       from: 2003
 
-- type: investigations
-    from: crji.org 
+  - type: investigations
+    from: crji.org
     to: Deutsche Welle
     interval:
       from: 2000
 
-- type: investigations
-    from: crji.org 
+  - type: investigations
+    from: crji.org
     to: Sat 1
     interval:
       from: 2008
 
-- type: investigations
-    from: crji.org 
-    to: Sueddeutsche Zeitung 
+  - type: investigations
+    from: crji.org
+    to: Sueddeutsche Zeitung
     interval:
       from: 2010
 
-- type: photo story
-    from: crji.org 
-    to: Panos Pictures 
+  - type: photo story
+    from: crji.org
+    to: Panos Pictures
     interval:
       from: 2007
 
-- type: investigations
-    from: crji.org 
-    to: Politiken 
+  - type: investigations
+    from: crji.org
+    to: Politiken
     interval:
       from: 2003
 
-- type: investigations
-    from: crji.org 
-    to: Le Soir 
+  - type: investigations
+    from: crji.org
+    to: Le Soir
     interval:
       from: 2001
 
-- type: investigations
-    from: crji.org 
-    to: Nieman Reports 
+  - type: investigations
+    from: crji.org
+    to: Nieman Reports
     interval:
       from: 2010
 
-- type: investigations
-    from: crji.org 
+  - type: investigations
+    from: crji.org
     to: L’Espresso
     interval:
       from: 2003
 
-- type: investigations
-    from: crji.org 
+  - type: investigations
+    from: crji.org
     to: Spiegel TV
     interval:
       from: 2006
 
-- type: investigations
-    from: crji.org 
-    to:  BIRN
+  - type: investigations
+    from: crji.org
+    to: BIRN
     interval:
       from: 2007
 
-- type: investigations
-    from: crji.org 
-    to:  Eu Observer
+  - type: investigations
+    from: crji.org
+    to: Eu Observer
     interval:
       from: 2010
 
-- type: investigations
-    from: crji.org 
-    to: Radio Free Europe 
+  - type: investigations
+    from: crji.org
+    to: Radio Free Europe
     interval:
       from: 2010
 
-- type: investigations
-    from: crji.org 
-    to: 24chasa  
+  - type: investigations
+    from: crji.org
+    to: 24chasa
     interval:
       from: 2003
 
-- type: investigations
-    from: crji.org 
-    to: Center for Investigative Reporting 
+  - type: investigations
+    from: crji.org
+    to: Center for Investigative Reporting
     interval:
       from: 2007
 
-- type: investigations
-    from: crji.org 
+  - type: investigations
+    from: crji.org
     to: HETQ
     interval:
       from: 2008
 
-- type: investigations
-    from: crji.org 
+  - type: investigations
+    from: crji.org
     to: Rustavi TV
     interval:
       from: 2012
 
-- type: investigations
-    from: crji.org 
+  - type: investigations
+    from: crji.org
     to: Ta Nea
     interval:
       from: 2012
 
-- type: investigations
-    from: crji.org 
-    to: Sunday Times 
+  - type: investigations
+    from: crji.org
+    to: Sunday Times
     interval:
       from: 2001
 
-- type: member
+  - type: member
     from: catalin.prisariu@crji.org
     to: crji.org
     interval:
       from: 2004
 
-- type: member
+  - type: member
     from: stefan.voinea@crji.org
     to: crji.org
     interval:
       from: 2004
 
-- type: member
-    from: liviu.avram@crji.org 
+  - type: member
+    from: liviu.avram@crji.org
     to: crji.org
     interval:
       from: 2004
 
-- type: member
-    from: vitalie.calugareanu@crji.org 
+  - type: member
+    from: vitalie.calugareanu@crji.org
     to: crji.org
     interval:
       from: 2004
 
-- type: member
+  - type: member
     from: bogdan.croitoru@crji.org
     to: crji.org
     interval:
       from: 2004
 
-- type: member
+  - type: member
     from: ananei.gagniuc@crji.org
     to: crji.org
     interval:
       from: 2004
 
-- type: member
+  - type: member
     from: romulus.dubat@crji.org
     to: crji.org
     interval:
       from: 2004
 
-- type: member
+  - type: member
     from: aling.golban@crji.org
     to: crji.org
     interval:
       from: 2004
 
-- type: member
+  - type: member
     from: robert.ghement@crji.org
     to: crji.org
     interval:
       from: 2004
 
-- type: member
+  - type: member
     from: sinziana.ionescu@crji.org
     to: crji.org
     interval:
       from: 2004
 
-- type: member
-    from:  marius.nemes@crji.org
+  - type: member
+    from: marius.nemes@crji.org
     to: crji.org
     interval:
       from: 2004
-- type: member
-    from:  sorin.titei@crji.org
+  - type: member
+    from: sorin.titei@crji.org
     to: crji.org
     interval:
       from: 2004
 
-- type: member
+  - type: member
     from: sorin.semeniuc@crji.org
     to: crji.org
     interval:
       from: 2004
 
-- type: member
+  - type: member
     from: petru.zoltan@crji.org
     to: crji.org
     interval:
       from: 2004
 
-- type: member
+  - type: member
     from: radu.vioreanu@crji.org
     to: crji.org
     interval:
       from: 2004
 
-- type: member
+  - type: member
     from: vlad.odobescu@crji.org
     to: crji.org
     interval:
       from: 2004
 
-- type: member
+  - type: member
     from: lina.vdovii@crji.org
     to: crji.org
     interval:
       from: 2004
 
-- type: member
+  - type: member
     from: george.colgiu@crji.org
     to: crji.org
     interval:
       from: 2004
-
