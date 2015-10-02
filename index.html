@@ -4,9 +4,11 @@
 <body>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/js-yaml/3.2.7/js-yaml.min.js"></script>
-<script>
-fetch('graph.yaml').then(function(res) {
-  res.text().then(function(text) {
+<script src="//cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+
+<script type="text/babel">
+fetch('graph.yaml').then((res) => {
+  res.text().then((text) => {
     var data = jsyaml.load(text);
     console.log(data);
   });
