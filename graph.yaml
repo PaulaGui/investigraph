@@ -646,7 +646,8 @@ links:
       from: 2002-01-01
       to: 2011-11-01
 
-  - type: investigation into International Adoptions
+  - type: investigations
+    description: investigation into International Adoptions
     source: stefan.candea@crji.org
     target: bbc.co.uk
     interval:
@@ -666,7 +667,8 @@ links:
       from: 2002-11-01
       to: 2003-02-01
 
-  - type: exposing internationally the sex trade in Romania and the region
+  - type: investigations
+    description: exposing internationally the sex trade in Romania and the region
     source: crji.org
     target: Channel 4
     interval:
@@ -778,7 +780,8 @@ links:
       from: 2008-02-01
       to: 2008-10-20
 
-  - type: http://www.theguardian.com/business/2008/oct/20/tobaccoindustry-russia-europe-smuggling-cigarettes
+  - type: investigations
+    description: http://www.theguardian.com/business/2008/oct/20/tobaccoindustry-russia-europe-smuggling-cigarettes
     source: crji.org
     target: The Guardian
     interval:
