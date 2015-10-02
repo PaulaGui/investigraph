@@ -174,14 +174,14 @@ entities:
     country: Eastern Europe
 
   Cross-Border Organized Crime Investigations:
-    type: media project
+    type: media-project
     description: introducing a new approach on project based investigations
     url: https://crji.org/articole.php?id=4081
     contact: https://crji.org/contact.php
     country: Eastern Europe
 
   Reporters without Borders:
-    type: Country Mission
+    type: country-mission
     description: introducing a new approach on project based investigations
     url: http://en.rsf.org/predator-caught-between-old-habits-and-democratic-strides-romanian-press-at-a-crossroads,10092.html
     contact: www.rsf.org
@@ -216,7 +216,7 @@ entities:
     country: RO
 
   Transdniester – a separatist republic investigation:
-    type: media project
+    type: media-project
     description: introducing a new approach on project based investigations
     url: https://crji.org/articole.php?id=4094
     contact: https://crji.org/contact.php
@@ -230,14 +230,14 @@ entities:
     country: US
 
   ICIJ Tobacco Underground:
-    type: cross-border project
+    type: cross-border-project
     description: investigation into tobacco and organized crime
     url: http://www.icij.org/project/tobacco-underground/about-project-tobacco-underground
     contact: contact@icij.org
     country: US
 
   ICIJ OffshoreLeaks:
-    type: cross-border project
+    type: cross-border-project
     description: investigation into the offshore world
     url: http://www.icij.org/offshore
     contact: contact@icij.org
@@ -350,7 +350,7 @@ entities:
     country: RO
 
   theblacksea.eu:
-    type: publication latform
+    type: publication-platform
     description: in-depth stories about the Black Sea region
     url: www.theblacksea.eu
     country: RO
@@ -368,13 +368,13 @@ entities:
     country: RO
 
   CIA Secret Prison:
-    type: investigative project
+    type: investigative-project
     description: publications about the existence of a CIA secret prison in Romania
     url: https://crji.org/articole.php?id=4200
     country: RO
 
   Berliner Gazette:
-    type: publication platform
+    type: publication-platform
     description: Berliner Gazette
     url: http://berlinergazette.de/
     country: DE
@@ -561,7 +561,7 @@ entities:
 
   Eu Observer:
     type: organization
-    description: publication platform
+    description: publication-pplatform
     url: https://euobserver.com/
     country: BE
 
@@ -690,7 +690,7 @@ links:
     interval:
       from: 2003-05-01
 
-  - type: country mission
+  - type: country-mission
     source: crji.org
     target: Reporters without Borders
     interval:
@@ -739,7 +739,7 @@ links:
     interval:
       from: 2014-01-21
 
-  - type: investigative series
+  - type: investigative-series
     source: crji.org
     target: Transdniester – a separatist republic investigation
     interval:
@@ -764,14 +764,14 @@ links:
     interval:
       from: 2003-10-01
 
-  - type: cross-border project
+  - type: cross-border-project
     source: crji.org
     target: ICIJ Tobacco Underground
     interval:
       from: 2008-02-01
       to: 2008-10-20
 
-  - type: cross-border project
+  - type: cross-border-project
     source: crji.org
     target: ICIJ OffshoreLeaks
     interval:
@@ -967,13 +967,13 @@ links:
     interval:
       from: 2015
 
-  - type: PhD research
+  - type: phd-research
     source: stefan.candea@crji.org
     target: University of Westminster
     interval:
       from: 2014
 
-  - type: PhD research
+  - type: phd-research
     source: stefan.candea@crji.org
     target: EIJC
     interval:
@@ -1080,7 +1080,7 @@ links:
     interval:
       from: 2010
 
-  - type: photo story
+  - type: photo-story
     source: crji.org
     target: Panos Pictures
     interval:
