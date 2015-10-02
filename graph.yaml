@@ -4,136 +4,136 @@ entities:
     description: Centrul Român pentru Jurnalism de Investigație - CRJI
     url: http://www.crji.org
     contact: mailto:rcij@riseup.net
-    country: ROU
+    country: RO
 
   stefan.candea@crji.org:
     type: person
     description: Ștefan Cândea
     url: http://www.icij.org/journalists/stefan-candea
     contact: mailto:stefan.candea@crji.org
-    country: ROU
+    country: RO
 
   Mihai Vasile:
     type: person
     description: Mihai Vasile
     url: http://www.icij.org/journalists/stefan-candea
     contact: mailto:stefan.candea@crji.org
-    country: ROU
+    country: RO
 
   Petrut Calinescu:
     type: person
     description: Petrut Calinescu fotojournalist
     url: http://www.petrut-calinescu.com/About/1
-    country: ROU
+    country: RO
 
   sorin.ozon@crji.org:
     type: person
     description: Sorin Ozon
     url: https://www.linkedin.com/pub/sorin-ozon/42/182/167
     contact: mailto:sorin.ozon@crji.org
-    country: ROU
+    country: RO
 
   adrian.mogos@crji.org:
     type: person
     description: Adrian Mogos
     url: http://www.icij.org/journalists/adrian-mogos
-    country: ROU
+    country: RO
 
   Paul Radu:
     type: person
     description: Paul Radu
     url: http://www.icij.org/journalists/paul-cristian-radu
-    country: ROU
+    country: RO
 
   george.colgiu@crji.org:
     type: person
     description: George Colgiu
-    country: ROU
+    country: RO
 
   lina.vdovii@crji.org:
     type: person
     description: Lina Vdovii
-    country: ROU
+    country: RO
 
   vlad.odobescu@crji.org:
     type: person
     description: Vlad Odobescu
-    country: ROU
+    country: RO
 
   radu.vioreanu@crji.org:
     type: person
     description: Radu Vioreanu
-    country: ROU
+    country: RO
 
   petru.zoltan@crji.org:
     type: person
     description: Petru Zoltan
-    country: ROU
+    country: RO
 
   sorin.semeniuc@crji.org:
     type: person
     description: Sorin Semeniuc
-    country: ROU
+    country: RO
 
   sorin.titei@crji.org:
     type: person
     description: Sorin Titei
-    country: ROU
+    country: RO
 
   marius.nemes@crji.org:
     type: person
     description: Marius Nemes
-    country: ROU
+    country: RO
 
   sinziana.ionescu@crji.org:
     type: person
     description: Sinziana Ionescu
-    country: ROU
+    country: RO
 
   robert.ghement@crji.org:
     type: person
     description: Robert Ghement
-    country: ROU
+    country: RO
 
   aling.golban@crji.org:
     type: person
     description: Alin Golban
-    country: ROU
+    country: RO
 
   romulus.dubat@crji.org:
     type: person
     description: Romulus Dubat
-    country: ROU
+    country: RO
 
   ananei.gagniuc@crji.org:
     type: person
     description: Ananei Gagniuc
-    country: ROU
+    country: RO
 
   bogdan.croitoru@crji.org:
     type: person
     description: Bogdan Croitoru
-    country: ROU
+    country: RO
 
   vitalie.calugareanu@crji.org:
     type: person
     description: Vitalie Calugareanu
-    country: ROU
+    country: RO
 
   liviu.avram@crji.org:
     type: person
     description: Liviu Avram
-    country: ROU
+    country: RO
 
   stefan.voinea@crji.org:
     type: person
     description: Stefan Voinea
-    country: ROU
+    country: RO
 
   catalin.prisariu@crji.org:
     type: person
     description: Catalin Prisacariu
-    country: ROU
+    country: RO
 
   bbc.co.uk:
     type: media
@@ -147,12 +147,12 @@ entities:
     description: Conventia Organizatiilor de Media - COM
     url: http://mma.ro/ro/freeex/resurse/conventia-organizatiilor-de-media-documente-de-autoreglementare/
     contact: ioana@cij.ro
-    country: ROU
+    country: RO
 
   Reporteri Incognito TV:
     type: media
     description: first undercover TV show
-    country: ROU
+    country: RO
 
   Channel 4:
     type: media
@@ -185,7 +185,7 @@ entities:
     description: introducing a new approach on project based investigations
     url: http://en.rsf.org/predator-caught-between-old-habits-and-democratic-strides-romanian-press-at-a-crossroads,10092.html
     contact: www.rsf.org
-    country: ROU
+    country: RO
 
   Washington Post:
     type: article
@@ -199,21 +199,21 @@ entities:
     description: Journalism School – University of Bucharest
     url: http://www.fjsc.unibuc.ro/cadre-didactice
     contact: contact@fjsc.ro
-    country: ROU
+    country: RO
 
   Active Watch:
     type: organization
     description: media watchdog
     url: http://activewatch.ro/ro/freeex/evenimente-si-activitati/ziua-mondiala-a-libertatii-presei-15-ani-de-freeex
     contact: contact@activewatch.ro
-    country: ROU
+    country: RO
 
   Active Watch - Map:
     type: report
     description: mapping political influence on local tv
     url: http://geo-spatial.org/hartatv/
     contact: contact@activewatch.ro
-    country: ROU
+    country: RO
 
   Transdniester – a separatist republic investigation:
     type: media project
@@ -321,39 +321,39 @@ entities:
     type: community
     description: media laboratory
     url: www.thesponge.eu
-    country: ROU
+    country: RO
 
   ApTI:
     type: organization
     description: digital rights
     url: http://apti.ro/apti-english
     contact: http://apti.ro/contact
-    country: ROU
+    country: RO
 
   geo-spatial.org:
     type: organization
     description: mapping community
     url: http://geo-spatial.org/
     contact: contact@geo-spatial.org
-    country: ROU
+    country: RO
 
   ceata.org:
     type: organization
     description: free software foundation
     url: www.ceata.org
-    country: ROU
+    country: RO
 
   rosedu.org:
     type: organization
     description: romania open source education
     url: www.rosedu.org
-    country: ROU
+    country: RO
 
   theblacksea.eu:
     type: publication latform
     description: in-depth stories about the Black Sea region
     url: www.theblacksea.eu
-    country: ROU
+    country: RO
 
   necir.org:
     type: organization
@@ -365,13 +365,13 @@ entities:
     type: award
     description: awards in photo journalism
     url: http://www.premiile-mihai-vasile.com/
-    country: ROU
+    country: RO
 
   CIA Secret Prison:
     type: investigative project
     description: publications about the existence of a CIA secret prison in Romania
     url: https://crji.org/articole.php?id=4200
-    country: ROU
+    country: RO
 
   Berliner Gazette:
     type: publication platform
