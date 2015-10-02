@@ -80,11 +80,12 @@ fetch('graph.yaml').then((res) => {
     })
     let links = []
     for(let l of data.links) {
-      if(entityMap[l.from] && entityMap[l.to]) {
-        links.push({
-          source: entityMap[l.from],
-          target: entityMap[l.to],
-        })
+      let link = {
+        source: entityMap[l.from],
+        target: entityMap[l.to],
+      }
+      if(link.source !== undefined && link.target !== undefined) {
+        links.push(link)
       }
     }
     render({nodes: nodes, links: links})
