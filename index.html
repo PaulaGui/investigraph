@@ -1,0 +1,14 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>net graph</title>
+<body>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/js-yaml/3.2.7/js-yaml.min.js"></script>
+<script>
+fetch('graph.yaml').then(function(res) {
+  res.text().then(function(text) {
+    var data = jsyaml.load(text);
+    console.log(data);
+  });
+});
+</script>
