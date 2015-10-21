@@ -34,60 +34,60 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
 
 <script type="text/babel">
+let width = 960
+let height = 500
+
+let svg = d3.select('body').append('svg')
+    .attr('width', width)
+    .attr('height', height)
+
+let force = null
+
+function render(graph) {
+  if(force) { force.stop() }
+
+  force = d3.layout.force()
+      .charge(-300)
+      .linkDistance(50)
+      .linkStrength(.2)
+      .size([width, height])
+
+  force
+      .nodes(graph.nodes)
+      .links(graph.links)
+      .start()
+
+  for(var i = 0; i < 500; ++i) { force.tick() }
+  force.stop()
+
+  let link = svg.selectAll('.link')
+      .data(graph.links)
+    .enter().append('line')
+      .attr('class', 'link')
+      .style('stroke-width', (d) => Math.sqrt(d.value))
+
+  let node = svg.selectAll('.node')
+      .data(graph.nodes)
+    .enter().append('g')
+      .attr('class', 'node')
+
+  node.append('circle')
+      .attr('r', 5)
+
+  node.append('text')
+      .text((d) => d.id)
+
+  link.attr('x1', (d) => d.source.x)
+      .attr('y1', (d) => d.source.y)
+      .attr('x2', (d) => d.target.x)
+      .attr('y2', (d) => d.target.y)
+
+  node.attr('transform', (d) => `translate(${d.x},${d.y})`)
+}
+
 fetch('graph.yaml').then((res) => {
   res.text().then((text) => {
     let data = jsyaml.load(text)
-    let width = 960
-    let height = 500
-
-    let svg = d3.select('body').append('svg')
-        .attr('width', width)
-        .attr('height', height)
-
-    let force = null
-
-    function render(graph) {
-      if(force) { force.stop() }
-
-      force = d3.layout.force()
-          .charge(-300)
-          .linkDistance(50)
-          .linkStrength(.2)
-          .size([width, height])
-
-      force
-          .nodes(graph.nodes)
-          .links(graph.links)
-          .start()
-
-      for(var i = 0; i < 500; ++i) { force.tick() }
-      force.stop()
-
-      let link = svg.selectAll('.link')
-          .data(graph.links)
-        .enter().append('line')
-          .attr('class', 'link')
-          .style('stroke-width', (d) => Math.sqrt(d.value))
-
-      let node = svg.selectAll('.node')
-          .data(graph.nodes)
-        .enter().append('g')
-          .attr('class', 'node')
-
-      node.append('circle')
-          .attr('r', 5)
-
-      node.append('text')
-          .text((d) => d.id)
-
-      link.attr('x1', (d) => d.source.x)
-          .attr('y1', (d) => d.source.y)
-          .attr('x2', (d) => d.target.x)
-          .attr('y2', (d) => d.target.y)
-
-      node.attr('transform', (d) => `translate(${d.x},${d.y})`)
-    }
-
     let entityMap = {}
     let nodes = []
     Object.keys(data.entities).forEach((key, idx) => {
