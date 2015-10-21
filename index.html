@@ -123,6 +123,10 @@ function select(graph, center, levels) {
   function pick(node, level) {
     if(node.level > level) {
       node.level = level
+      if(node.x === undefined) {
+        node.x = width / 2 + (Math.random() * 2 - 1) * 100 * level
+        node.y = height / 2 + (Math.random() * 2 - 1) * 100 * level
+      }
     }
   }
 
