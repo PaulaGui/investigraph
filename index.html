@@ -61,9 +61,8 @@ function render(graph) {
       .nodes(graph.nodes)
       .links(graph.links)
       .start()
+      .on('tick', draw)
 
-  for(var i = 0; i < 500; ++i) { force.tick() }
-  force.stop()
 
   let link = svg.selectAll('.link')
       .data(graph.links)
@@ -75,6 +74,7 @@ function render(graph) {
       .data(graph.nodes)
     .enter().append('g')
       .attr('class', (n) => `node level-${n.level}`)
+      .call(force.drag)
 
   node.append('circle')
 
@@ -82,12 +82,14 @@ function render(graph) {
       .text((d) => d.id)
       .attr('transform', (n) => `translate(${8 - 2*n.level},5)`)
 
-  link.attr('x1', (d) => d.source.x)
-      .attr('y1', (d) => d.source.y)
-      .attr('x2', (d) => d.target.x)
-      .attr('y2', (d) => d.target.y)
+  function draw() {
+    link.attr('x1', (d) => d.source.x)
+        .attr('y1', (d) => d.source.y)
+        .attr('x2', (d) => d.target.x)
+        .attr('y2', (d) => d.target.y)
 
-  node.attr('transform', (d) => `translate(${d.x},${d.y})`)
+    node.attr('transform', (d) => `translate(${d.x},${d.y})`)
+  }
 }
 
 function parseData(data) {
