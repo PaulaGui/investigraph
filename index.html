@@ -108,10 +108,54 @@ function parseData(data) {
   return {nodes: nodes, links: links}
 }
 
+function select(graph, center, levels) {
+  for(let n of graph.nodes) {
+    n.level = Infinity
+  }
+
+  function pick(node, level) {
+    if(node.level > level) {
+      node.level = level
+    }
+  }
+
+  function spread(level) {
+    for(let l of graph.links) {
+      let s = graph.nodes[l.source]
+      let t = graph.nodes[l.target]
+      if(s.level == level) { pick(t, level + 1) }
+      if(t.level == level) { pick(s, level + 1) }
+    }
+  }
+
+  for(let n of graph.nodes) { if(n.id == center) { pick(n, 0) } }
+
+  for(let level of d3.range(levels)) {
+    spread(level)
+  }
+
+  let nodes = graph.nodes.filter((n) => n.level < Infinity)
+
+  let nodeMap = {}; nodes.forEach((node, idx) => { nodeMap[node.id] = idx })
+
+  let links = []; for(let l of graph.links) {
+    let s = graph.nodes[l.source]
+    let t = graph.nodes[l.target]
+    if(s.level < Infinity && t.level < Infinity) {
+      links.push({
+        source: nodeMap[s.id],
+        target: nodeMap[t.id],
+      })
+    }
+  }
+
+  return {nodes: nodes, links: links}
+}
+
 fetch('graph.yaml').then((res) => {
   res.text().then((text) => {
     let graph = parseData(jsyaml.load(text))
-    render(graph)
+    render(select(graph, 'geo-spatial.org', 2))
   })
 })
 </script>
