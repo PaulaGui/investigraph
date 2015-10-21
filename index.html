@@ -3,7 +3,7 @@
 <title>net graph</title>
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">
 <style>
-.node {
+.node circle {
   stroke: #fff;
   stroke-width: 1.5px;
   fill: steelblue;
@@ -67,10 +67,11 @@ fetch('graph.yaml').then((res) => {
 
       let node = svg.selectAll('.node')
           .data(graph.nodes)
-        .enter().append('circle')
+        .enter().append('g')
           .attr('class', 'node')
+
+      node.append('circle')
           .attr('r', 5)
-          .call(force.drag)
 
       node.append('title')
           .text((d) => JSON.stringify(d))
@@ -80,8 +81,7 @@ fetch('graph.yaml').then((res) => {
           .attr('x2', (d) => d.target.x)
           .attr('y2', (d) => d.target.y)
 
-      node.attr('cx', (d) => d.x)
-          .attr('cy', (d) => d.y)
+      node.attr('transform', (d) => `translate(${d.x},${d.y})`)
     }
 
     let entityMap = {}
