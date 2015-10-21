@@ -9,6 +9,10 @@
   fill: steelblue;
 }
 
+.node text {
+  font-size: 12px;
+}
+
 .link {
   stroke: #999;
   stroke-opacity: .6;
@@ -73,8 +77,8 @@ fetch('graph.yaml').then((res) => {
       node.append('circle')
           .attr('r', 5)
 
-      node.append('title')
-          .text((d) => JSON.stringify(d))
+      node.append('text')
+          .text((d) => d.id)
 
       link.attr('x1', (d) => d.source.x)
           .attr('y1', (d) => d.source.y)
@@ -88,6 +92,7 @@ fetch('graph.yaml').then((res) => {
     let nodes = []
     Object.keys(data.entities).forEach((key, idx) => {
       let entity = data.entities[key]
+      entity.id = key
       nodes.push(entity)
       entityMap[key] = idx
     })
