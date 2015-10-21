@@ -7,11 +7,16 @@
   stroke: #fff;
   stroke-width: 1.5px;
   fill: steelblue;
+  r: 5;
 }
 
 .node text {
-  font-size: 12px;
+  font-size: 10px;
 }
+
+.node.level-0 circle { r: 7; } .node.level-0 text { font-size: 14px; }
+.node.level-1 circle { r: 6; } .node.level-1 text { font-size: 12px; }
+.node.level-2 circle { r: 5; } .node.level-2 text { font-size: 10px; }
 
 .link {
   stroke: #999;
@@ -69,13 +74,13 @@ function render(graph) {
   let node = svg.selectAll('.node')
       .data(graph.nodes)
     .enter().append('g')
-      .attr('class', 'node')
+      .attr('class', (n) => `node level-${n.level}`)
 
   node.append('circle')
-      .attr('r', 5)
 
   node.append('text')
       .text((d) => d.id)
+      .attr('transform', (n) => `translate(${8 - 2*n.level},5)`)
 
   link.attr('x1', (d) => d.source.x)
       .attr('y1', (d) => d.source.y)
