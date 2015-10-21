@@ -85,29 +85,33 @@ function render(graph) {
   node.attr('transform', (d) => `translate(${d.x},${d.y})`)
 }
 
+function parseData(data) {
+  let entityMap = {}
+  let nodes = []
+  Object.keys(data.entities).forEach((key, idx) => {
+    let entity = data.entities[key]
+    entity.id = key
+    nodes.push(entity)
+    entityMap[key] = idx
+  })
+  let links = []
+  for(let l of data.links) {
+    let link = {
+      source: entityMap[l.source],
+      target: entityMap[l.target],
+    }
+    if(link.source !== undefined && link.target !== undefined) {
+      links.push(link)
+    }
+  }
+
+  return {nodes: nodes, links: links}
+}
+
 fetch('graph.yaml').then((res) => {
   res.text().then((text) => {
-    let data = jsyaml.load(text)
-    let entityMap = {}
-    let nodes = []
-    Object.keys(data.entities).forEach((key, idx) => {
-      let entity = data.entities[key]
-      entity.id = key
-      nodes.push(entity)
-      entityMap[key] = idx
-    })
-    let links = []
-    for(let l of data.links) {
-      let link = {
-        source: entityMap[l.source],
-        target: entityMap[l.target],
-      }
-      if(link.source !== undefined && link.target !== undefined) {
-        links.push(link)
-      }
-    }
-
-    render({nodes: nodes, links: links})
+    let graph = parseData(jsyaml.load(text))
+    render(graph)
   })
 })
 </script>
