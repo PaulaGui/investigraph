@@ -48,7 +48,7 @@ let svg = d3.select('body').append('svg')
 
 let force = null
 
-function render(graph) {
+function render(graph, onClick) {
   if(force) { force.stop() }
 
   force = d3.layout.force()
@@ -63,6 +63,7 @@ function render(graph) {
       .start()
       .on('tick', draw)
 
+  svg.selectAll('*').remove()
 
   let link = svg.selectAll('.link')
       .data(graph.links)
@@ -75,6 +76,10 @@ function render(graph) {
     .enter().append('g')
       .attr('class', (n) => `node level-${n.level}`)
       .call(force.drag)
+      .on('click', (n) => {
+        if(d3.event.defaultPrevented) { return }
+        onClick(n.id)
+      })
 
   node.append('circle')
 
@@ -145,6 +150,12 @@ function select(graph, center, levels) {
     spread(level)
   }
 
+  for(let n of graph.nodes) {
+    if(n.level == Infinity) {
+      n.x = n.y = undefined
+    }
+  }
+
   let nodes = graph.nodes.filter((n) => n.level < Infinity)
 
   let nodeMap = {}; nodes.forEach((node, idx) => { nodeMap[node.id] = idx })
@@ -166,7 +177,13 @@ function select(graph, center, levels) {
 fetch('graph.yaml').then((res) => {
   res.text().then((text) => {
     let graph = parseData(jsyaml.load(text))
-    render(select(graph, 'geo-spatial.org', 2))
+
+    function choose(nodeId) {
+      let subgraph = select(graph, nodeId, 2)
+      render(subgraph, choose)
+    }
+
+    choose('geo-spatial.org')
   })
 })
 </script>
